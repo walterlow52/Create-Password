@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: tomato;
+  font-family: papyrus;
+}
+
+.container {
+  position: absolute;
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+  transition: all .2s;
+}
+
+.container h1, h2 {
+  white-space: nowrap;
+  font-size: 10vw;
+  font-weight: 500;
+}
+
+.container h4, p {
+  color: gold;
+  font-size: 2vw;
+}
+
+input {
+  height: 80px;
+  width: 100%;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding-left: 15px;
+  padding-right: 35px;
+}
+
+input:focus {
+  border-color: black;
+  transition: all .2s;
+}
+
+i {
+  position: absolute;
+  right: 40px;
+  color: gray;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.fa-eye-slash {
+  visibility: hidden;
+}
+
+.reset {
+  all: unset;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 300px;
+  background-color: gold;
+  color: white;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  cursor: pointer;
+}
