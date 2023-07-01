@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> HTML Website - Create New Password </title>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <link rel = "stylesheet" href = "styling.css">
+    <script src = "scripts.js"> </script>
+    <body>
+      <h1> Create New Password </h1>
+      <h4> *New password must be different from previous password* </h4>
+
+      <h2> New Password </h2>
+      <input type = "password" placeholder = "Create Password">
+      <i class = "fa-solid fa-eye" onclick = "toggle()"> </i>
+      <i class = "fa-solid fa-eye-slash" onclick = "toggle()"> </i>
+      <p> -Password must be at least 8 characters long- </p>
+
+      <h2> Confirm Password </h2>
+      <input type = "password" placeholder = "Re-enter Password">
+      <p> *Both passwords must match.</p>
+      <button class = "reset" onclick = "check_password()"> CHECK PASSWORD </button> 
+    </body>
+  </head>
+</html>
