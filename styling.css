@@ -9,7 +9,7 @@ body {
   width: 400px;
   background-color: white;
   border-radius: 5px;
-  transform: translate(-50%, -50%);
+  #transform: translate(-50%, -50%);
   transition: all .2s;
 }
 
