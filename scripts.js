@@ -1,7 +1,7 @@
 let new_password = document.querySelector('.newPassword');
 let confirm_password = document.querySelector('.confirmPassword'); 
 let container = document.querySelector('.container');
-let msg - document.querySelector('.message');
+let msg = document.querySelector('.message');
 
 let toggle = () => {
   if (new_password.type === 'password' && confirm_password === 'password') {
