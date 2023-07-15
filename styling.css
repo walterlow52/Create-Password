@@ -22,6 +22,7 @@ body {
 .container h4, p {
   color: gold;
   font-size: 1.5vw;
+  font-weight: 500;
 }
 
 input {
