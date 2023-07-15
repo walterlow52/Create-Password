@@ -4,9 +4,10 @@ body {
 }
 
 .container {
+  background-color: lightgray;
   position: absolute;
   height: 100%;
-  width: 100%;
+  width: 90%;
   background-color: white;
   border-radius: 5px;
   transition: all .2s;
@@ -14,7 +15,7 @@ body {
 
 .container h1, h2 {
   white-space: nowrap;
-  font-size: 5vw;
+  font-size: 3vw;
   font-weight: 500;
 }
 
@@ -25,7 +26,7 @@ body {
 
 input {
   height: 80px;
-  width: 100%;
+  width: 75%;
   font-size: 20px;
   border: 1px solid gray;
   border-radius: 12px;
