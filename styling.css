@@ -5,11 +5,10 @@ body {
 
 .container {
   position: absolute;
-  height: 500px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
   background-color: white;
   border-radius: 5px;
-  /*transform: translate(-50%, -50%);*/
   transition: all .2s;
 }
 
@@ -61,7 +60,6 @@ i {
   width: 300px;
   background-color: gold;
   color: white;
-  transform: translate(-50%, -50%);
   border-radius: 5px;
   cursor: pointer;
 }
