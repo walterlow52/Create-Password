@@ -25,12 +25,14 @@ let check_password = () => {
         container.style.height = '450px';
         msg.style.display = 'block';
         msg.innerHTML = "<i class = 'fa-solid fa-circle-check'> </i> Both passwords are a match.";
+        msg.style.backgroundcolor = 'white';
         msg.style.color = 'green';
       }
       else {
         container.style.height = '450px';
         msg.style.display = 'block';
         msg.innerHTML = "<i class = 'fa-solid fa-triangle-exclamation'> </i> Both passwords don't match.";
+        msg.style.backgroundcolor = 'white';
         msg.style.color = 'red';
       }
     }
