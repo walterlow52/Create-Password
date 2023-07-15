@@ -25,8 +25,8 @@ body {
 }
 
 input {
-  height: 80px;
-  width: 75%;
+  height: 50%;
+  width: 50%;
   font-size: 20px;
   border: 1px solid gray;
   border-radius: 12px;
