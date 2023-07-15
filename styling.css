@@ -47,13 +47,16 @@ i {
   cursor: pointer;
 }
 
-/*.fa-eye-slash {
-  visibility: hidden;
+.container .fa-eye, .fa-eye-slash {
+  position: absolute;
+  color: gray;
+  cursor: pointer;
+  font-size: 20px;
 }
 
-.message {
-  background-color: white;
-}*/
+.fa-eye-slash {
+  visibility: hidden;
+}
 
 .reset {
   all: unset;
