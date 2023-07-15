@@ -51,6 +51,10 @@ i {
   visibility: hidden;
 }
 
+.message {
+  background-color: white;
+}
+
 .reset {
   all: unset;
   float: right;
