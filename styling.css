@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  background-color: lightgray;
+  background-color: gray;
   position: absolute;
   height: 100%;
   width: 90%;
