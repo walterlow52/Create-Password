@@ -51,9 +51,9 @@ i {
   visibility: hidden;
 }
 
-.message {
+/*.message {
   background-color: white;
-}
+}*/
 
 .reset {
   all: unset;
