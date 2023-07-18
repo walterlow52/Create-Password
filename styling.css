@@ -55,9 +55,9 @@ i {
   font-size: 20px;
 }
 
-.fa-eye-slash {
+/*.fa-eye-slash {
   visibility: hidden;
-}
+}*/
 
 .reset {
   all: unset;
