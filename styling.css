@@ -55,8 +55,7 @@ i {
 }
 
 .fa-eye-slash {
-  color: black;
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 
 .reset {
